@@ -2,7 +2,7 @@
 <br>
 <h1> A função  a seguir é para rodar em tempo aleatorio de 1 a 15 segundos </h1>
 <br>
-<code>
+<input>
 function imprimirNumeroAleatorio() {
     const intervalo = Math.floor(Math.random() * 15) + 1;
     const tempoInicio = Date.now();
@@ -14,4 +14,4 @@ function imprimirNumeroAleatorio() {
   }
   
   imprimirNumeroAleatorio();
-</code>
+</input>
